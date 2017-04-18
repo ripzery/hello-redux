@@ -4,7 +4,7 @@ const Counter = (props) => (
   <div className="counter">
     <h1>{props.label}</h1>
     <h2>{props.counter}</h2>
-    <button onClick={props.addCounter}>+1</button>
+    <button onClick={props.addCounter}>+2</button>
   </div>
 );
 
